@@ -10,11 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/positioning.css" />
 </head>
 
 <body>
-    <header>
+    <header class="container">
+        <div class="header-container">
         <a class="logo" href="index.html"><span class="web-color1">Web</span><span class="web-color2">Studio</span></a>
         <nav>
             <menu class="navigations">
@@ -23,11 +29,15 @@
                 <li><a href="/Kontakt">Kontakt</a></li>
             </menu>
         </nav>
+        <div class="contact-container">
         <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+        </div>
     </header>
 
-<section>
+<div class="container">
+<section class="section">
 <ul class="buttons">
 <li><button type="button" class="button">Wszystkie</button></li>
 <li><button type="button" class="button">Strony</button></li>
@@ -36,9 +46,10 @@
 <li><button type="button" class="button">Marketing</button></li>
 </ul>
 
+
 <ul class="images" >
-    <li>
-        <figure> 
+    <li class="image">
+        <figure class="image-display"> 
             <img src="/goit-markup-hw-02/images/Portfolio/img1.jpg"
             width="370"
             height="294"
@@ -49,8 +60,8 @@
             </figcaption>
         </figure>
     </li>
-    <li>
-        <figure>
+    <li class="image">
+        <figure class="image-display">
             <img src="/goit-markup-hw-02/images/Portfolio/img2.jpg"
             width="370"
             height="294"
@@ -61,8 +72,8 @@
             </figcaption>
         </figure>
     </li>
-    <li>
-        <figure>
+    <li class="image">
+        <figure class="image-display">
             <img src="/goit-markup-hw-02/images/Portfolio/img3.jpg"
             width="370"
             height="294"
@@ -73,8 +84,8 @@
             </figcaption>
         </figure>
     </li>
-    <li>
-        <figure>
+    <li class="image">
+        <figure class="image-display">
             <img src="/goit-markup-hw-02/images/Portfolio/img4.jpg"
             width="370"
             height="294"
@@ -85,8 +96,8 @@
             </figcaption>
         </figure>
     </li>
-    <li>
-        <figure>
+    <li class="image">
+        <figure class="image-display">
             <img src="/goit-markup-hw-02/images/Portfolio/img5.jpg"
             width="370"
             height="294"
@@ -97,8 +108,8 @@
             </figcaption>
         </figure>
     </li>
-    <li>
-        <figure>
+    <li class="image">
+        <figure class="image-display">
             <img src="/goit-markup-hw-02/images/Portfolio/img6.jpg"
             width="370"
             height="294"
@@ -109,8 +120,8 @@
             </figcaption>
         </figure>
     </li>
-<li>
-    <figure>
+<li class="image">
+    <figure class="image-display">
         <img src="/goit-markup-hw-02/images/Portfolio/img7.jpg"
         width="370"
         height="294"
@@ -121,8 +132,8 @@
         </figcaption>
     </figure>
 </li>
-<li>
-    <figure>
+<li class="image">
+    <figure class="image-display">
         <img src="/goit-markup-hw-02/images/Portfolio/img8.jpg"
         width="370"
         height="294"
@@ -133,8 +144,8 @@
         </figcaption>
     </figure>
 </li>
-<li>
-    <figure>
+<li class="image">
+    <figure class="image-display">
         <img src="/goit-markup-hw-02/images/Portfolio/img9.jpg"
         width="370"
         height="294"
@@ -147,6 +158,7 @@
 </li>
 </ul>
 </section>
+</div>
 <footer>
     <a class="logo" href="index.html"><span class="web-color1">Web</span><span class="web-color3">Studio</span></a>
     <address>
