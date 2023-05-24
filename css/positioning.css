@@ -28,12 +28,13 @@ header {
 .main-heading {
     max-width: 696px;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 106px;
     padding-bottom: 30px;
     text-align: center;
     }
 .service-button {
     padding: 10px 41px;
+    margin-bottom: 106px;
 }
 .service {
     text-align: center;
@@ -63,9 +64,7 @@ header {
     gap: 30px;
     padding: 0px;
     margin: 0 auto;
-    margin-bottom: 94px;
     width: 1170px;
-
 }
 .team-images {
     display: flex;
@@ -115,15 +114,14 @@ img {
     margin: 0 auto;
     flex-basis: calc((100%-60px)/3);
 }
-.image {
-    border: 1px solid #EEEEEE;
-}
 .image-display {
     padding: 0;
     margin: 0 auto;
 }
 .image-caption {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 .image-caption span {
     padding-top: 4px;
