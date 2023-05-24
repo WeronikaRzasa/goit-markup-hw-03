@@ -62,9 +62,10 @@ header {
     justify-content: space-between;
     gap: 30px;
     padding: 0px;
-    width: 1170px;
     margin: 0 auto;
     margin-bottom: 94px;
+    width: 1170px;
+
 }
 .team-images {
     display: flex;
@@ -73,7 +74,7 @@ header {
     gap: 30px;
     padding:0;
     width: 1170px;
-    margin: 0 auto;
+    margin: 0;
 }
 .team-image-display {
     margin:0;
