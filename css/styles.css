@@ -4,17 +4,12 @@ body {
         font-size: 14px;
         width: 1600px;
     }
-
 :root {
     --brand-color: #2196F3;
     --negative-color: #fff;
     --main-text-color: #212121;
     --secondary-text-color: #757575;
     --secondary-font: 'Raleway';
-}
-.container {
-    width: 1200px;
-    margin: 0 auto;
 }
 .logo {
     font-family: var(--secondary-font);
@@ -80,7 +75,6 @@ body {
     color: var(--negative-color);
     border-radius: 4px;
     letter-spacing: 0.06em;
-
 }
 .service-button:hover,
 .service-button:focus {
@@ -185,8 +179,4 @@ footer {
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--brand-color);
-}
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }

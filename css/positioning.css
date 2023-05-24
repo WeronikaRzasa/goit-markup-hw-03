@@ -2,6 +2,10 @@
     width: 1200px;
     margin: 0 auto;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 header {
     border-bottom: 1px solid #ececec;
 }
@@ -52,6 +56,9 @@ header {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0;
+}
+.what-do-we-do {
+    padding-bottom: 94px;
 }
 .headlines {
     padding-bottom: 50px;
@@ -147,5 +154,4 @@ footer {
     letter-spacing: 0.03em;
     display: flex;
     margin: 60px 15px 20px 15px;
-    
 }
