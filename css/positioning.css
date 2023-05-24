@@ -1,40 +1,25 @@
 .container {
     width: 1200px;
-    margin: 0;
-}
-menu {
-    display: flex;
-    gap: 46px;
-    margin: 32px 0px 32px 0px;
+    margin: 0 auto;
 }
 header {
     border-bottom: 1px solid #ececec;
-    margin: auto;
-    width: 1200px;
-    align-items: center;
 }
-.header-container {
+.header-space {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1200px;
-    height: 80px;
-}
-.logo {
-    display: flex;
-    align-items: center;
-    
 }
 .navigations {
+    margin: 32px 371px 32px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 46px;
     padding: 0px;
-    margin-right: 371px;
 }
-.contact-container {
+.contact-space {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,26 +28,20 @@ header {
 }
 .main-heading {
     max-width: 696px;
-    text-align: center;
-    margin-left: 452px;
-    margin-right: 452px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 0 auto;
     padding-top: 200px;
+    padding-bottom: 30px;
+    text-align: center;
     }
 .service-button {
     padding: 10px 41px;
-    box-sizing: border-box;
-    width: 200px;
-    height: 50px;
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-right: 30px;
-    margin-bottom: 200px;
 }
-.lorem-index {
-    width: 1170px;
-    margin: 94px 215px 94px 215px;
+.service {
+    text-align: center;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .lorem-ipsum {
     display: flex;
@@ -70,36 +49,31 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 0;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 .headlines {
     padding-bottom: 50px;
-    margin: 0;
-    margin-left: 424px;
+    margin: 0 auto;
 }
 .index-images {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-bottom: 94px;
     padding: 0px;
     width: 1170px;
-}
-.team-box {
-    padding-bottom: 94px;
+    margin: 0 auto;
+    margin-bottom: 94px;
 }
 .team-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
     padding:0;
     width: 1170px;
+    margin: 0 auto;
 }
 .team-image-display {
     margin:0;
@@ -107,18 +81,15 @@ header {
 img {
     display: block;
     max-width: 100%;
-    height: auto;    
+    height: auto; 
 }
-.JohnDoe b {
-    row-gap: 10px;
+.team-image-description {
     padding-top: 30px;
-    margin-bottom: 10px;
 }
-.JohnDoe {
-    padding-top: 30px;
+.team-image-description span {
+    padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
-    gap: 10px;
     display: block;
 }
 
@@ -161,11 +132,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 9px;
-    padding: 0;
-    margin-left: 215px;;
-    max-height: 81px;
+
+
 }
 .bottom-logo {
-    padding: 60px 1040px 20px 215px;
-    margin: 0;
+padding-top: 60px;
+padding-bottom: 20px;
 }
