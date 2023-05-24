@@ -92,16 +92,15 @@ img {
     text-align: center;
     display: block;
 }
-
 .buttons {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    align-items: flex-start;
     width: 572px;
     padding: 0;
-    margin-left: 510px;
-    margin-right:510px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 34px;
 }
 .buttons .button {
     padding: 6px 22px;
@@ -112,17 +111,23 @@ img {
     gap: 30px;
     width: 1170;
     padding: 0;
+    margin: 0 auto;
+    flex-basis: calc((100%-60px)/3);
 }
 .image {
-    flex-basis: calc((100%-60px)/3);
     border: 1px solid #EEEEEE;
 }
 .image-display {
-    margin: 0;
+    padding: 0;
+    margin: 0 auto;
 }
 .image-caption {
-    width: 370px;
-
+    padding: 20px 24px;
+}
+.image-caption span {
+    padding-top: 4px;
+    
+    display: block;
 }
 footer {
     display: flex;
@@ -132,8 +137,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 9px;
-
-
 }
 .bottom-logo {
 padding-top: 60px;

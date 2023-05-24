@@ -25,6 +25,7 @@ body {
     margin: 25px;
     margin-right: 93px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 0;
 }
 .web-color1 {
     color: var(--brand-color);
@@ -156,11 +157,6 @@ body {
 }
 .images {
     list-style-type: none;
-}
-.image {
-    flex-basis: calc((100% - 60%) / 3);
-    border-radius: 1px;
-    border-color: #eee;
 }
 .image-caption b {
     font-weight: 700;
